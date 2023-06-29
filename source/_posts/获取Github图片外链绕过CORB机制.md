@@ -1,7 +1,7 @@
 ---
 title: 获取Github图片外链绕过CORB机制
 date: 2023-06-27 18:31:59
-tags:
+tags: Github
 ---
 
 - [Cross-Origin Read Blocking (CORB)](#cross-origin-read-blocking-corb)

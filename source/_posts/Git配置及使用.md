@@ -1,5 +1,7 @@
 ---
 title: Git配置及使用
+date: 2023-06-26
+type: "Git"
 ---
 - [Windows 平台上安装Git](#windows-平台上安装git)
 - [用户信息](#用户信息)

@@ -1,7 +1,7 @@
 ---
 title: 使用Pandora部署个人使用的ChatGPT
 date: 2023-06-28 00:43:33
-tags:
+tags: ChatGPT
 ---
 
 - [使用Pandora部署个人使用的ChatGPT](#使用pandora部署个人使用的chatgpt)
