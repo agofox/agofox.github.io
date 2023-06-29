@@ -2,6 +2,16 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+avatar:
+  img:  /img-folder/index/avatar.png
+  effect: false
+
+# Disable all banner image
+disable_top_img: false
+
+# The banner image of home page
+index_img:  /img-folder/index/index.jpg
+
 # Site
 title: Ago fox
 subtitle: ''
