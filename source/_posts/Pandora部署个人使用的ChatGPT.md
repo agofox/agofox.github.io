@@ -2,6 +2,7 @@
 title: 使用Pandora部署个人使用的ChatGPT
 date: 2023-06-28 00:43:33
 tags: ChatGPT
+
 ---
 
 - [使用Pandora部署个人使用的ChatGPT](#使用pandora部署个人使用的chatgpt)
@@ -91,7 +92,7 @@ Token获取地址：https://ai-20230626.fakeopen.com/auth
 vi /var/token.txt
 pandora -t /var/token.txt -s 192.168.1.1:4000
 ```
-![图片显示需要能访问Github](https://raw.githubusercontent.com/agofox/agofox.github.io/main/img-folder/pandora/1.png)
+![图片显示需要能访问Github](/source/img-folder/pandora/1.png)
 
 将pandora放至后台不间断运行并将错误日志写入pandora.log
 

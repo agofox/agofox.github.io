@@ -2,6 +2,7 @@
 title: Git配置及使用
 date: 2023-06-26
 type: "Git"
+
 ---
 - [Windows 平台上安装Git](#windows-平台上安装git)
 - [用户信息](#用户信息)
@@ -160,15 +161,15 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 成功的话会在 ~/ 下生成 .ssh 文件夹，进去，打开 id_rsa.pub，复制里面的 key。
 回到 github 上，进入 Account => Settings（账户配置）。
 
-![图片显示需要能访问Github](https://raw.githubusercontent.com/agofox/agofox.github.io/main/img-folder/git/1.jpg)
+![图片显示需要能访问Github](/source/img-folder/git/1.jpg)
 
 左边选择 SSH and GPG keys，然后点击 New SSH key 按钮,title 设置标题，可以随便填，粘贴在你电脑上生成的 key。
 
-![图片显示需要能访问Github](https://raw.githubusercontent.com/agofox/agofox.github.io/main/img-folder/git/2.jpg)
+![图片显示需要能访问Github](/source/img-folder/git/2.jpg)
 
 添加成功后界面如下所示
 
-![图片显示需要能访问Github](https://raw.githubusercontent.com/agofox/agofox.github.io/main/img-folder/git/3.jpg)
+![图片显示需要能访问Github](/source/img-folder/git/3.jpg)
 
 为了验证是否成功，输入以下命令：
 

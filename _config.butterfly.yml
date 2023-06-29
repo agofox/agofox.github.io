@@ -12,7 +12,7 @@ menu:
     主页: / || fas fa-home
     目录: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
+    分类 : /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -44,17 +44,17 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img:   https://raw.githubusercontent.com/agofox/agofox.github.io/main/img-folder/index/avatar.png
+  img:   img-folder/index/avatar.png
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:   https://raw.githubusercontent.com/agofox/agofox.github.io/main/img-folder/index/index.jpg
+index_img:   /img-folder/index/index.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img:top_img: https://raw.githubusercontent.com/agofox/agofox.github.io/main/img-folder/index/index.jpg
 
 # The banner image of archive page
 archive_img:
@@ -105,7 +105,7 @@ post_meta:
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
@@ -158,8 +158,8 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  license: CC BY-NC-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  license: Apache License Version 2.0, January 2004
+  license_url: http://www.apache.org/licenses/
 
 # Sponsor/reward
 reward:
@@ -643,7 +643,7 @@ tag_ui: # 留空或 index
 background:
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
@@ -694,8 +694,8 @@ canvas_nest:
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
-  enable: false
-  zIndex: 9999 # -1 or 9999
+  enable: true
+  zIndex: 443 # -1 or 9999
   mobile: false
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
@@ -847,14 +847,14 @@ aplayerInject:
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
+  enable: true
   position: bottom-left
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
-instantpage: false
+instantpage: true
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
