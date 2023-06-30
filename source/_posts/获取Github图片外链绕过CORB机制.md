@@ -2,8 +2,7 @@
 title: 获取Github图片外链绕过CORB机制
 date: 2023-05-27 18:31:59
 tags: Github
-description: 
-解决Github拉取图片无法显示的问题
+description: 解决Github拉取图片无法显示的问题
 ---
 
 - [Cross-Origin Read Blocking (CORB)](#cross-origin-read-blocking-corb)

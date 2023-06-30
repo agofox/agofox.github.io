@@ -2,8 +2,7 @@
 title: 使用Pandora部署个人使用的ChatGPT
 date: 2023-04-28 00:43:33
 tags: ChatGPT
-description: 
-Pandora以其部署chatgpt简单，抗干扰能力强在过去一段时间一直表现不错.
+description: Pandora以其部署chatgpt简单，抗干扰能力强在过去一段时间一直表现不错.
 
 ---
 
