@@ -1,7 +1,7 @@
 ---
 title: Git配置及使用
 date: 2023-04-26 01:04:03
-type: "Git"
+type: Git
 description: Git的安装及使用命令 
 
 ---
