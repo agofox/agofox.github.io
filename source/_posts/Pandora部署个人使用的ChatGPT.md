@@ -66,7 +66,7 @@ pip安装运行
 pip install pandora-chatgpt
 pandora
 ```
-如果你想支持gpt-3.5-turbo模式：在[api]中填写OpenAI获取到的API
+如果你想支持gpt-3.5-turbo模式：
 ```bash
 pip install 'pandora-chatgpt[api]'
 ```
@@ -91,13 +91,13 @@ Token获取地址：https://ai-20230626.fakeopen.com/auth
 使用域名访问需要先将服务器IP进行解析。
 ```bash
 vi /var/token.txt
-pandora -t /var/token.txt -s 192.168.1.1:4000
+pandora -t /var/token.txt -s ip地址或域名:端口
 ```
 ![图片显示需要能访问Github](/img-folder/pandora/1.png)
 
 将pandora放至后台不间断运行并将错误日志写入pandora.log
 
 ```bash 
-nohup pandora -t /var/token.txt -s 192.168.1.1:4000 >pandora.log 2>&1 $
+nohup pandora -t /var/token.txt -s ip地址或域名:端口 >pandora.log 2>&1 $
 ```
 

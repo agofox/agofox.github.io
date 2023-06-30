@@ -64,7 +64,7 @@ service sshd restart
 
 ### 禁止系统响应任何从外部 / 内部来的 ping 请求
 ```bash
-echo “1”> /proc/sys/net/ipv4/icmp_echo_ignore_all
+echo "1"> /proc/sys/net/ipv4/icmp_echo_ignore_all
 ```
 默认值为 0
 
