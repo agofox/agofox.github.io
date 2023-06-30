@@ -8,7 +8,7 @@ description: Pandora以其部署chatgpt简单，抗干扰能力强在过去一�
 
 - [使用Pandora部署个人使用的ChatGPT](#使用pandora部署个人使用的chatgpt)
     - [购买VPS服务器](#购买vps服务器)
-    - [部署在VPS上(Debian系统)](#部署在vps上debian系统)
+    - [部署在VPS上(Ubuntu/Debian系统)](#部署在vps上ubuntudebian系统)
       - [下载Python源码包](#下载python源码包)
       - [源码安装Python](#源码安装python)
     - [安装Pandora](#安装pandora)
@@ -27,7 +27,7 @@ bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/OpenAI-Checker/openai.sh)
 
 作者Github项目地址：https://github.com/missuo/OpenAI-Checker
 
-### 部署在VPS上(Debian系统)
+### 部署在VPS上(Ubuntu/Debian系统)
 
 #### 下载Python源码包
    python下载地址：https://www.python.org/downloads/source/
