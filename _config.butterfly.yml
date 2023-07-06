@@ -12,7 +12,7 @@ menu:
     主页: / || fas fa-home
     目录: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
-    分类 : /categories/ || fas fa-folder-open
+  # 分类 : /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -57,11 +57,11 @@ index_img:   /img-folder/index/index.jpg
 default_top_img:top_img: /img-folder/index/index.jpg
 
 # The banner image of archive page
-archive_img:
+archive_img: /img-folder/index/index.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: /img-folder/index/index.jpg
 
 # The banner image of tag page
 # format:
