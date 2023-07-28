@@ -10,12 +10,12 @@ description: 配置Vlan
 
 ACCESS配置VLAN:
 隔离广播域
-入方向  打VLAN tag
-出方向  去tag
+入方向:  打VLAN tag
+出方向:  去tag
 
 TRUNK:
-入方向:保留VLAN tag
-出方向:保留VLAN tag
+入方向:  保留VLAN tag
+出方向:  保留VLAN tag
 
 ### ACCESS
 
@@ -25,7 +25,7 @@ switchport mode access      #配置接口类型
 switchport access vlan 10   #配置接口vlan
 ```
 
-TRUNK
+### TRUNK
 
 ```
 switchport trunk encapsulation dot1q    #封装为dot1q
