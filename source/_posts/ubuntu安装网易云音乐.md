@@ -44,7 +44,6 @@ sudo cp /lib/x86_64-linux-gnu/libgmodule-2.0.so.0 /opt/netease/netease-cloud-mus
 sudo cp /lib/x86_64-linux-gnu/libpango-1.0.so.0 /opt/netease/netease-cloud-music/libs/
 sudo cp /lib/x86_64-linux-gnu/libfribidi.so.0 /opt/netease/netease-cloud-music/libs/
 sudo apt-get install  libcanberra-gtk-module
-
 ```
    
 
